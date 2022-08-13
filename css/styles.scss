@@ -1,4 +1,7 @@
+// -----------------All Fonts-------------
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+// -------------------Over all--------------
 body {
   background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
   position: relative;
@@ -7,6 +10,7 @@ body {
   margin: 0;
 }
 
+// ---------------Preyash---------------------
 h1 {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -20,27 +24,19 @@ h1 {
   background: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?size=626&ext=jpg");
   background-size: auto 200%;
   background-clip: text;
+  //   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: shine 8s linear infinite;
-          animation: shine 8s linear infinite;
+  animation: shine 8s linear infinite;
+  &:nth-child(2) {
+    top: 50vh;
+  }
+  @keyframes shine {
+    from {
+      background-position: center 0;
+    }
+    to {
+      background-position: center 200%;
+    }
+  }
 }
-h1:nth-child(2) {
-  top: 50vh;
-}
-@-webkit-keyframes shine {
-  from {
-    background-position: center 0;
-  }
-  to {
-    background-position: center 200%;
-  }
-}
-@keyframes shine {
-  from {
-    background-position: center 0;
-  }
-  to {
-    background-position: center 200%;
-  }
-}/*# sourceMappingURL=styles.css.map */
