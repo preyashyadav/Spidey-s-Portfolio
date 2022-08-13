@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
+  background: radial-gradient(ellipse at bottom, #530425 0%, #000000 100%);
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -42,7 +42,7 @@ h1:nth-child(2) {
     background-position: center 0;
   }
   to {
-    background-position: center 200%;
+    background-position: center 100%;
   }
 }
 @keyframes shine {
@@ -52,4 +52,12 @@ h1:nth-child(2) {
   to {
     background-position: center 200%;
   }
-} /*# sourceMappingURL=styles.css.map */
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
