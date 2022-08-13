@@ -1,4 +1,12 @@
+/* // -----------------All Fonts------------- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+/* // -------------------Over all-------------- */
+
+html {
+  overflow-y: hidden;
+}
+
 body {
   background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
   position: relative;
@@ -7,6 +15,7 @@ body {
   margin: 0;
 }
 
+/* -----------------Preyash---------------- */
 h1 {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -23,7 +32,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: shine 8s linear infinite;
-          animation: shine 8s linear infinite;
+  animation: shine 8s linear infinite;
 }
 h1:nth-child(2) {
   top: 50vh;
@@ -43,4 +52,4 @@ h1:nth-child(2) {
   to {
     background-position: center 200%;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
