@@ -1,8 +1,57 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+/* -----------------over all------------------------ */
+
 body {
-  background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
-  position: relative;
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 100vh;
-  width: 100vw;
-  margin: 0;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
+
+section {
+  border: 2px solid black;
+  margin: 3rem;
+}
+
+/* -----------introduction------------------- */
+.intro {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+.intro-col {
+  text-align: justify;
+}
+
+.col-left {
+  border: 2px solid red;
+}
+
+/* ---------work experience------------------- */
+
+
+.work-cards-pack {
+  border: 2px solid brown;
+  display: flex;
+  justify-content: center;
+  margin: 30px !important;
+}
+
+.work-cards {
+  border: 2px solid green;
+  margin: 10px;
+}
+
+/* ------------all images-------------------- */
