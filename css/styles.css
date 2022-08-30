@@ -41,7 +41,6 @@ section {
 
 /* ---------work experience------------------- */
 
-
 .work-cards-pack {
   border: 2px solid brown;
   display: flex;
@@ -55,3 +54,11 @@ section {
 }
 
 /* ------------all images-------------------- */
+
+@media screen and (max-width: 400px) {
+  .intro-img {
+    height: 200px;
+    position: relative;
+    left: 40%;
+  }
+}
